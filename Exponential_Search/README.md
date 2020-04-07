@@ -29,7 +29,7 @@ int exponential_search(T arr[], int size, T key)
     }
 
     int bound = 1;
-    while (bound < size && arr[bound] < key)
+    while ( bound < size && arr[bound] < key)
     {
         bound*= 2;
     }
